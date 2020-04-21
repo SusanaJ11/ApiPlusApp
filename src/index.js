@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import '../src/components/API';
 //import axios from "axios";
 import * as serviceWorker from './serviceWorker';
 
@@ -21,6 +20,13 @@ ReactDOM.render(<Footer/>, document.getElementById('root'));*/
 import Layout from '../src/Containers/Layout';
 ReactDOM.render(<Layout/>, document.getElementById('root'));
 console.log("pruebas");
+
+
+//import Login from '../src/Containers/Login';
+//ReactDOM.render(<Login/>, document.getElementById('root'));
+
+//import Registro from '../src/components/Registro';
+//ReactDOM.render(<Registro/>, document.getElementById('root'));
 
 
 
