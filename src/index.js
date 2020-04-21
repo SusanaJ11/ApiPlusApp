@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
+import '../src/components/API';
+//import axios from "axios";
 import * as serviceWorker from './serviceWorker';
 
  
@@ -15,14 +16,13 @@ ReactDOM.render(<Search/>, document.getElementById('root'));*/
 
 /*import Footer from '../src/components/Footer';
 ReactDOM.render(<Footer/>, document.getElementById('root'));*/
+
+
 import Layout from '../src/Containers/Layout';
 ReactDOM.render(<Layout/>, document.getElementById('root'));
+console.log("pruebas");
 
-//import Login from '../src/Containers/Login';
-//ReactDOM.render(<Login/>, document.getElementById('root'));
 
-//import Registro from '../src/components/Registro';
-//ReactDOM.render(<Registro/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
